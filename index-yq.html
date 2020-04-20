@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>"最美逆行者"主题网页</title>
+<style type="text/css">
+p 
+{
+    border:1px solid red;
+    outline:green dotted thick;
+}
+p {text-indent:20px;}
+p.main {text-align:justify;}
+p.normal {font-style:normal;}
+p.italic {font-style:italic;}
+h3 {font-size:18px;}
+h3 {font-style:italic;}
+h3 {text-shadow:2px 2px #FF0000;}
+/*页面样式初始化*/
+*{
+    padding: 0;
+    margin: 0;
+    font: inherit;
+}
+
+/*通用样式*/
+body{
+    background-image: url(../images/yiqing1.jpg);
+    font: 14px 微软雅黑, 黑体, Verdana, Arial, sans-serif;
+    color: #333333;
+    border-top: 8px solid #A78560;
+}
+ul{
+    list-style-type: none;
+}
+/*外层盒子*/
+.wrap{
+    width: 960px;
+    margin: 0 auto;
+}
+/*头部*/
+.top-header{
+    margin: 10px 0;
+    height: 120px;
+}
+/*logo*/
+.tea-logo{
+    float: left;
+    height:100px;
+}
+/*导航*/
+.top-menu{
+    float: left;
+    margin-top: 73px;
+    margin-left: 30px;
+}
+
+.top-menu ul li{
+    display: inline;
+    background-color: #e0ffff;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #AAA;
+    transition: 1.5s;   
+}
+
+.top-menu ul li.selected, .top-menu ul li:hover{
+    background-color: #;
+}
+
+.top-menu ul li a:link, .top-menu ul li a:visited{
+    color: b0c4de;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*侧边栏*/
+.left-aside{
+    float: left;
+    width: 350px;   
+}
+
+.left-aside section{
+    background: #e0ffff url(../images/yiqing01.jpg) top left;
+    padding: 20px;
+    margin-bottom: 10px
+     font-size: 1.0em;;
+}
+
+.left-aside h3{
+    color: #a78560;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;    
+}
+/*主内容区域*/
+main{
+    background: #e0ffff url(../images/yiqing01.jpg) top left;
+    padding: 20px;
+    margin-left: 360px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #AAA;   
+}
+main article{
+    border-bottom: 1px dashed #C8B99C;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+     font-size: 1.0em;
+}
+*页脚*/
+.page-footer{
+    width:100%;height:40px;clear: both;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #CCFF33;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 90%;
+}
+</style>
+</head>
+
+<body>
+    <div class="wrap">
+    	<header class="top-header">
+        	<img class="tea-logo" src="../images/yiqing15.jpg" alt="最美逆行者">
+            <nav class="top-menu">
+            	<ul>
+            		<li class="selected"><a href="index-yq.html" title="主页概述">主页概述</a></li>
+            		<li><a href="yiqing1.html" title="疫情案例">疫情案例</a></li>
+            		<li><a href="yiqing1.html" title="心灵采访">心灵采访</a></li>
+            		<li><a href="yiqing1.html" title="胜利心愿">胜利心愿</a></li>
+            	</ul>
+            </nav>
+        </header>
+        
+        <aside class="left-aside">
+        	<section class="salute">
+            	<header>
+                	<h3>让我们一起致敬逆行者们！</h3>
+                </header>
+                <p class="ita">
+               有这么一群人，在风险来临时他们总是迎着风险向前。有这么一群人，他们总是为了社会和国家放弃自己的生活。有这么一群人，他们总是为大家撑起了一片蔚蓝的天。他们站在风雨前沿，他们不为生死，他们甚至付出生命的代价换来美好的人间。他们是最美的“逆行者”，他们是中国的脊梁，他们是最美的人。感谢你为人类的和国家的付出，衷心的祝福你们。
+               </p>
+            </section>
+            
+            <section class="white-angels">
+            	<header>
+                	<h3>白衣天使</h3>
+                </header>
+                
+                <figure>
+                	<img src="../images/yiqing3.jpg" alt="携手共进" height="85%" width="85%">
+                	<figcaption align="center">携手共进</figcaption>
+                </figure>
+                <figure  class="white-angels">
+                	<img src="../images/yiqing9.jpg" alt="众志成城" height="85%" width="85%">
+                	<figcaption align="center">众志成城</figcaption>
+                </figure>
+                <figure class="white-angels">
+                	<img src="../images/yiqing7.jpg" alt="救死扶伤" height="85%" width="85%">
+                	<figcaption align="center">救死扶伤</figcaption>
+                </figure>
+                <figure  class="white-angels">
+                	<img src="../images/yiqing12.jpg" alt="团结一心" height="60%" width="85%">
+                	<figcaption align="center">团结一心</figcaption>
+                </figure>
+                
+                <div class="clear"></div>
+                
+            </section>
+        </aside>
+        
+        <main>
+        	<article>
+        		<header>
+        			<h3>疫情简述</h3>
+        			<time datetime="2020-03-28">2020年03月28日</time>
+        		</header>
+                <p >
+                2019年12月以来，湖北省武汉市持续开展流感及相关疾病监测，发现多起病毒性肺炎病例，均诊断为病毒性肺炎/肺部感染。2020年1月20日，习近平对新型冠状病毒感染的肺炎疫情作出重要指示，强调要把人民群众生命安全和身体健康放在第一位，坚决遏制疫情蔓延势头。1月27日，受习近平总书记委托，中共中央政治局常委、国务院总理、中央应对新型冠状病毒感染肺炎疫情工作领导小组组长李克强来到武汉，考察指导疫情防控工作，看望慰问患者和奋战在一线的医护人员。截至3月27日24时，据31个省（自治区、直辖市）和新疆生产建设兵团报告，现有确诊病例3128例（其中重症病例921例），累计治愈出院病例74971例，累计死亡病例3295例，累计报告确诊病例81394例，现有疑似病例184例。累计追踪到密切接触者699396人，尚在医学观察的密切接触者17198人。累计收到港澳台地区通报确诊病例819例：香港特别行政区518例（出院111例，死亡4例），澳门特别行政区34例（出院10例），台湾地区267例（出院30例，死亡2例）。
+                </p>
+                <figure>
+                    <video controls width="512" height="288">
+                        <source src="../video/yiqing.mp4">
+                        <p>对不起，您的浏览器不支持video标签</p>
+                    </video>
+                    <figcaption>抗击疫情短视频</figcaption>
+                </figure>
+
+        		<footer>
+                	<span>阅读(99+)</span>
+                </footer>
+        	</article>
+        	<article>
+        		<header>
+        			<h3>最美逆行者——钟南山院士</h3>
+        			<time datetime="2020-03-28">2020年03月28日</time>
+        		</header>
+        		<p>
+                2019年12月，一种名叫新型冠状病毒的肺炎，在中国逐渐蔓延，其中武汉最为严重。84岁的他一边告诉公众“尽量不要去武汉”，一边自己登上去武汉的高铁，挂帅出征。那急促又铿锵的步伐，那匆忙又坚定的背影，那疲惫又刚毅的眼神，给患者，给百姓带来希望的曙光。
+                </p>
+        		<footer>
+                	<span>阅读(99+)</span>
+                </footer>
+        	</article>
+        	<article>
+        		<header>
+        			<h3>最美逆行者——李兰娟院士</h3>
+        			<time datetime="2020-03-28">2020年03月28日</time>
+        		</header>
+        		<p>
+               1月18日，受国务院、国家卫健委委托，她与钟南山院士等一行6人抵达武汉，听取了武汉方面的情况汇报，并查看现场。在武汉，李兰娟作为国家级专家，提出了对疫情的判断，尤其是武汉要采取“不进不出”措施、冠状病毒感染要作为乙类传染病甲类管理等重要建议。
+                </p>
+        		<footer>
+                	<span>阅读(99+)</span>
+                </footer>
+        	</article>
+        	<article>
+        		<header>
+        			<h3>最美逆行者——王烁医生</h3>
+        			<time datetime="2020-03-28">2020年03月28日</time>
+        		</header>
+        		<p>
+              3月13日晚，中央指导组防控组驻荆州防控队队员、广东支援湖北荆州医疗队队员王烁，在援助湖北抗击新冠肺炎的战斗中因公殉职，享年36岁。 3月20日，广东省委决定追授王烁同志“广东省优秀共产党员”称号。此前，共青团广东省委员会、广东省青年联合会追授王烁“广东青年五四奖章”，广东省总工会追授王烁广东省五一劳动奖章荣誉称号。
+
+                </p>
+        		<footer>
+                	<span>阅读(99+)</span>
+                </footer>
+        	</article>
+        	<article>
+        		<header>
+        			<h3>最美逆行者——夏宝峰医生</h3>
+        			<time datetime="2020-03-28">2020年03月28日</time>
+        		</header>
+        		<p>
+               温州是浙江省相对疫情较重的地区，而作为抗疫前沿之一的温州市急救中心，更是承担着危险、紧急和时间赛跑抢救生命的重任。这段时间，夏宝峰一直坚守在抗疫战线上。接到任务后，他来不及吃上一口年夜饭，便匆匆离家回到工作岗位，任前路有多大的危险，他义无反顾地用责任助力抗疫，全力对抗病毒、守护生命。
+                </p>
+        		<footer>
+                	<span>阅读(99+)</span>
+                </footer>
+        	</article>
+        </main>
+    </div> 
+    <footer class="page-footer">
+    	@2020年-201801班刘亮伸创作
+    </footer>
+</body>
+</html>
