@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>"中国十大古都"主题网页</title>
+<style type="text/css">
+p 
+{
+    border:1px solid red;
+    outline:green dotted thick;
+}
+p {text-indent:20px;}
+p.main {text-align:justify;}
+p.normal {font-style:normal;}
+p.italic {font-style:italic;}
+h3 {font-size:18px;}
+h3 {font-style:italic;}
+h3 {text-shadow:2px 2px #FF0000;}
+/*页面样式初始化*/
+*{
+    padding: 0;
+    margin: 0;
+    font: inherit;
+}
+
+/*通用样式*/
+body{
+    background-image: url(images/gudu2.jpg);
+    font: 14px 微软雅黑, 黑体, Verdana, Arial, sans-serif;
+    color: #333333;
+    border-top: 8px solid #A78560;
+}
+ul{
+    list-style-type: none;
+}
+/*外层盒子*/
+.wrap{
+    width: 960px;
+    margin: 0 auto;
+}
+/*头部*/
+.top-header{
+    margin: 10px 0;
+    height: 120px;
+}
+/*logo*/
+.tea-logo{
+    float: left;
+    height:100px;
+}
+/*导航*/
+.top-menu{
+    float: left;
+    margin-top: 73px;
+    margin-left: 30px;
+}
+
+.top-menu ul li{
+    display: inline;
+    background-color: #e0ffff;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #AAA;
+    transition: 1.5s;   
+}
+
+.top-menu ul li.selected, .top-menu ul li:hover{
+    background-color: #;
+}
+
+.top-menu ul li a:link, .top-menu ul li a:visited{
+    color: b0c4de;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*侧边栏*/
+.left-aside{
+    float: left;
+    width: 350px;   
+}
+
+.left-aside section{
+    background: #e0ffff url(images/gudu01.jpg) top left;
+    padding: 20px;
+    margin-bottom: 10px
+     font-size: 1.0em;;
+}
+
+.left-aside h3{
+    color: #a78560;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;    
+}
+/*主内容区域*/
+main{
+    background: #e0ffff url(images/gudu01.jpg) top left;
+    padding: 20px;
+    margin-left: 360px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #AAA;   
+}
+main article{
+    border-bottom: 1px dashed #C8B99C;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+     font-size: 1.0em;
+}
+*页脚*/
+.page-footer{
+    width:100%;height:40px;clear: both;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #CCFF33;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 90%;
+}
+</style>
+</head>
+
+<body>
+    <div class="wrap">
+    	<header class="top-header">
+        	<img class="tea-logo" src="images/gudu1.jpg" alt="十大古都">
+            <nav class="top-menu">
+            	<ul>
+            		<li class="selected"><a href="index.html" title="主页概述">主页概述</a></li>
+            		<li><a href="gudu-2.html" title="古都简介">古都简介</a></li>
+            		<li><a href="gudu-1.html" title="古都文化">古都文化</a></li>
+            		<li><a href="gudu-3.html" title="古都风情">古都风情</a></li>
+                    <li><a href="gudu-4.html" title="古都感触">古都感触</a></li>
+                    <li><a href="gudu-5.html" title="古都照片墙">古都照片墙</a></li>
+            	</ul>
+            </nav>
+        </header>
+        
+        <aside class="left-aside">
+        	<section class="salute">
+            	<header>
+                	<h3>让我们一起领略古都美！</h3>
+                </header>
+                <p class="ita">
+              咱们伟大的中国是全世界唯一一个几千年历史没有断过的文明古国，上下五千年历史长河，中华文化源远流长。历史上经历了许多朝代，同时也留下了非常多的著名历史古城，其中历史古都就有很多个，而最出名的有十大古都。十大古都指的是西安、北京、南京、洛阳、开封、杭州、安阳、郑州、大同、成都。十大古都是在最早的西安、南京、北京和洛阳中国四大古都基础上逐渐列入其他都会得到的。
+               </p>
+            </section>
+            
+            <section class="white-angels">
+            	<header>
+                	<h3>四大最美古都</h3>
+                </header>
+                
+                <figure>
+                	<img src="images/gudu3.jpg" alt="西安" height="100%" width="100%">
+                	<figcaption align="center">西安</figcaption>
+                </figure>
+                <figure  class="white-angels">
+                	<img src="images/gudu4.jpg" alt="北京" height="100%" width="100%">
+                	<figcaption align="center">北京</figcaption>
+                </figure>
+                <figure class="white-angels">
+                	<img src="images/gudu5.jpg" alt="南京" height="100%" width="100%">
+                	<figcaption align="center">南京</figcaption>
+                </figure>
+                <figure  class="white-angels">
+                	<img src="images/gudu6.jpg" alt="洛阳" height="100%" width="100%">
+                	<figcaption align="center">洛阳</figcaption>
+                </figure>
+                <figure  class="white-angels">
+                    <img src="images/gudu13.jpg" alt="杭州" height="100%" width="100%">
+                    <figcaption align="center">杭州</figcaption>
+                </figure>
+                
+                <div class="clear"></div>
+                
+            </section>
+        </aside>
+        
+        <main>
+        	<article>
+        		<header>
+        			<h3>历史起源</h3>
+        			<time datetime="2020-05-03">2020年05月03日</time>
+        		</header>
+                <p >
+                新中国成立前，学术界公认的“四大古都”有西安、北京、南京、洛阳。上世纪60年代，浙江大学著名教授陈桥驿先生提出两宋的都城开封和杭州也应被列入大古都行列，此建议后来得到学术界认可。1983年，《中国六大古都》一书正式出版，明确将杭州和开封列入“六大古都”。复旦大学著名教授谭其骧先生又建议将殷墟甲骨文的故乡、三国时期魏国都城邺城所在地安阳列为“大古都”行列；1988年，中国古都学会通过了“七大古都”的决议，安阳正式名列其中。2004年11月，中国古都学会认定郑州为八大古都之一；2010年，中国古都学会又将大同认定为九大古都之一，就有了“九大古都”之说。此次成都列入，全国便有了“十大古都”。
+                </p>
+                <figure>
+                    <video controls width="512" height="288">
+                        <source src="video/gudu1.mp4">
+                        <p>对不起，您的浏览器不支持video标签</p>
+                    </video>
+                    <figcaption><p align="center">航拍中国-古都长安</p></figcaption>
+                </figure>
+
+        		<footer>
+                	<span>阅读(99+)</span>
+                </footer>
+        	</article>
+        	<article>
+        		<header>
+        			<h3>古都——西安</h3>
+        			<time datetime="2020-05-03">2020年05月03日</time>
+        		</header>
+        		<p>
+               西安，古名长安，陕西省的省会，中国首批历史文化名城之一，中国古都之首，与罗马、雅典、开罗并称世界四大古都。位于陕西关中平原的渭河南岸。背依秦岭，面向秦川。西安，是著名的丝绸之路的唯一起点和终点。与雅典、罗马、开罗并称为世界四大古都。西安也是我国建都最早、朝代最多、历时最长的古城，距今已有3000多年的历史，自西周（公元前1134年）时起，直到唐代，先后有西周、秦、西汉、新莽、西晋、前赵、前秦、后秦、西魏、北周、隋、唐共13个王朝在这里建都（亦有17朝之说），历经2000余年。在中国六大古都中，西安的历史最为悠久。1982年成为首批历史文化名城之一。
+                </p>
+        		<footer>
+                	<span>阅读(99+)</span>
+                </footer>
+        	</article>
+        	<article>
+        		<header>
+        			<h3>古都——北京</h3>
+        			<time datetime="2020-05-03">2020年05月03日</time>
+        		</header>
+        		<p>
+               北京，中国西周时成为周朝的诸侯国之一的燕国的都城。自中国金朝起成为古代中国首都——中都。自元朝起，开始成为全中国的首都。元朝国都，元大都，或称大都，由于中国皇帝忽必烈是蒙古大汗国的大汗，蒙古文称为“汗八里”（Khanbaliq），意为“大汗之居处”。元大都其城址位于今北京市市区，北至元大都城遗址，南至长安街，东西至二环路。明朝自成祖后开始对北京进行大规模扩建，清朝在延续明北京城的基础上又进行了一些修缮和扩建。至清末北京成为当时世界上最大的城市。北京有着3000余年的建城史和857余年的建都史。自秦汉以来北京地区一直是中国北方的军事和商业重镇，名称先后称为蓟城、燕都、燕京、涿郡、幽州、南京、中都、大都、京师、顺天府、北平、北京等。
+                </p>
+        		<footer>
+                	<span>阅读(99+)</span>
+                </footer>
+        	</article>
+        	<article>
+        		<header>
+        			<h3>古都——南京</h3>
+        			<time datetime="2020-05-03">2020年05月03日</time>
+        		</header>
+        		<p>
+             南京是中国著名的四大古都及历史文化名城之一。千百年来，奔腾不息的长江不仅孕育了长江文明，也催生了南京这座江南城市。南京襟江带河，依山傍水，钟山龙蟠，石头虎踞，山川秀美，古迹众多。早在上个世纪30年代，著名文学家朱自清先生游历南京后，写下的《南京》一文中就有这样一段评价：“逛南京像逛古董铺子，到处都有些时代侵蚀的痕迹。你可以揣摩，你可以凭吊，可以悠然遐想……”南京，别称金陵、江宁，中国四大古都之一，中国历史上的六大文化古都之一，1982年国务院公布的第一批中国历史文化名城，中华人民共和国江苏省省会。
+                </p>
+        		<footer>
+                	<span>阅读(99+)</span>
+                </footer>
+        	</article>
+        	<article>
+        		<header>
+        			<h3>古都——洛阳</h3>
+        			<time datetime="2020-05-03">2020年05月03日</time>
+        		</header>
+        		<p>
+              洛阳，简称“洛”，地处古洛水北岸而得名，有4000余年建城史和1529年建都史，自夏朝开始有13个王朝、105位帝王在此定鼎九州。河图洛书在此诞生，儒、释、道、玄、理肇始于此，丝绸之路与隋唐大运河在此交汇，邙山古墓群与天子驾六震惊世界，以洛阳为中心的河洛地区是中华文明的发源地，“中国”一词便源自洛阳，是中国历史上唯一被命名为“神都”的城市。洛阳是世界“四大圣城”之一，是我国著名的“四大古都”之一，是国务院首批公布的历史文化名城。
+                </p>
+        		<footer>
+                	<span>阅读(99+)</span>
+                </footer>
+        	</article>
+        </main>
+    </div> 
+    <footer class="page-footer">
+    	@2020年-网页小组创作
+    </footer>
+</body>
+</html>

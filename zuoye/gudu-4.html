@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>调查问卷</title>
+</head>
+<body>
+<div style="position: absolute;width:100%;height:100%;z-index: -1">
+   <img src="images/gudu03.jpg" height="100%" width="100%"/>
+</div>
+
+<h2 style="color:#008080;text-align:center" >古都感触个人调查</h2>
+	<p align="right"><a href="index.html">返回</a></p>
+	<h4 align="center">中国十大古都个人感触调查问卷</h2>
+	<form>
+	<fieldset>
+	<legend>
+	请输入相应的问卷信息：
+	</legend>
+	<table>
+	<tr>
+<td valign="top">
+		姓名 ：
+		</td>
+		<td>
+		<input type="text" id="txtUserName" autofocus="true" pattern="^[a-zA-Z0-9]{6,} $">
+		<br>
+	<span style="color:red;font-size:12px">只允许输入中文,且长度至多为6位</span>
+		</td>
+	</tr>
+<tr>
+<td>年龄：</td>
+<td><input type="number" name="age" min="1" max="100"></td>
+  </tr>
+ <tr>
+<td>性别：</td>
+<td><input name="sex" type="radio" value="man">男
+<input name="sex" type="radio" value="woman">女</td>
+</tr>
+<tr><td>联系方式：</td>
+<td>
+<input type="text" name="yourtele"></td></tr>
+<tr><td>你从什么渠道了解中国十大古都的：</td>
+<td>
+<select name="state">
+<option value="china">老师课堂讲解</option>
+<option value="us">经亲朋好友的口述</option>
+<option value="japan" >电视广播等网络媒介</option>
+<option value="russia">其他</option>
+</select></td></tr>
+<tr><td>你最喜欢的中国十大古都：</td>
+<td>
+<select name="state">
+<option value="china">西安</option>
+<option value="japan" >北京</option>
+<option value="us">南京</option>
+<option value="japan" >洛阳</option>
+<option value="russia">其他</option>
+</select></td></tr>
+<tr>
+<td>中国古典文化中你最喜欢的是：</td>
+<td><input name="interests" type="checkbox" value="">人文历史
+<input name="interests" type="checkbox" value="">地理地貌
+<input name="interests" type="checkbox" value="">风土人情
+<input name="interests" type="checkbox" value="">其他</td>
+<tr>
+<td>你对中国古都的了解程度：</td>
+<td><input name="time" type="radio" value="any">非常了解
+<input name="time" type="radio" value="timing">一定了解
+<input name="time" type="radio" value="eles">较少了解</td>
+</tr>
+<tr>
+<td>你心目中最喜欢的中国古都是：</td>
+<td>
+<textarea name="why" rows="7" cols="40" wrap="…">
+</textarea><br></td></tr>
+<tr>
+<td>你关于中国十大古都发展问题的看法是：</td>
+<td>
+<textarea name="why" rows="7" cols="40" wrap="…">
+</textarea><br></td></tr>
+<td colspan="2">
+	<input type="submit" value="提交问卷">
+	<input type="reset" value="删除重置">
+	</td>
+	</tr>
+	</table>
+	</fieldset>
+
+</body>
+</html>
